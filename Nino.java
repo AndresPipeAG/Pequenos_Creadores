@@ -41,6 +41,16 @@ public class Nino {
 
     //Constructor
 
-    
+    public Nino(String nombre, int edad, boolean tieneMateriales, boolean tieneClases, boolean tieneTalleres) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.tieneMateriales = tieneMateriales;
+        this.tieneClases = tieneClases;
+        this.tieneTalleres = tieneTalleres;
+    }
+
+    public Nino(){
+        
+    }
     
 }
